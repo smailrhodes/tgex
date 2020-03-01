@@ -66,6 +66,8 @@
   "addons": [
   ],
   "buildpacks": [{
+    "url": "heroku/python"
+  }, {
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
     "url": "https://github.com/appositum/heroku-buildpack-youtube-dl.git"
